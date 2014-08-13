@@ -13,7 +13,7 @@ example docker run command:
 ```
  docker run --privileged \
   -e NFS_MOUNT=nas.phl.looting.biz:/mnt/storage/music
-  -i -t narf/nfs-client /bin/bash
+  -i -t narf/nfsclient /bin/bash
 ```
 
 your NFS share would be mounted at `/mnt/storage/music` in your container
